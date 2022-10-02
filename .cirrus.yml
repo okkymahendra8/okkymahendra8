@@ -1,0 +1,7 @@
+container:
+  image: node:14
+  cpu: 4
+  memory: 12G
+
+task:
+  script: apt-get update
