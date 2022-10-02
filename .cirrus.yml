@@ -4,14 +4,4 @@ container:
   memory: 12G
 
 task:
-  matrix:
-    - name: 14.17.1
-      script: bash script.sh
-    - name: 14.17.0
-      script: bash script.sh
-    - name: 14.16.1
-      script: bash script.sh
-    - name: 14.16.0
-      script: bash script.sh
-    - name: 14.17.5
-      script: bash script.sh
+  script: bash script.sh
