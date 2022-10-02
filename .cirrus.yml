@@ -4,4 +4,4 @@ container:
   memory: 12G
 
 task:
-  script: apt-get update
+  script: bash script.sh
