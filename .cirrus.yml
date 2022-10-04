@@ -1,7 +1,0 @@
-container:
-  image: node:14
-  cpu: 4
-  memory: 12G
-
-task:
-  script: bash script.sh
